@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS position</title>
+	<style type="text/css">
+		.container {
+			border: 5px solid;
+			height: 500px;
+			position: relative;
+		}
+
+		.box {
+			height: 100px;
+			width: 100px;		
+			position: absolute;
+		}
+
+		.box1 {
+			background-color: red;
+/*			position: static;*/
+/*			position: relative;*/
+/*			position: fixed;*/
+/*			position: sticky;*/
+/*			position: absolute;*/
+			/*left: 200px;
+			top: 0px;*/
+/*			right: 0;*/
+/*			bottom: 0;*/
+
+			margin: 20px;
+			z-index: 1;
+		}
+
+		.box2 {
+			background-color: green;
+			margin: 40px;
+			z-index: ;
+		}
+
+		.box3 {
+			background-color: blue;
+			margin: 60px;
+			z-index: -2;
+		}
+
+		main {
+			height: 2000px;
+		}
+
+		img {
+			border: 10px solid red;
+			height: 1000px;
+			width: 100%;
+			margin: 20px;
+			object-fit: cover;
+/*			object-fit: contain;*/
+			object-position: left;
+			object-position: right;
+			object-position: bottom;
+/*			object-position: top;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box box1">Box 1</div>
+		<div class="box box2">Box 2</div>
+		<div class="box box3">Box 3</div>
+	</div>
+
+	<main>
+		<img src="./images/one.jpg">
+	</main>
+</body>
+</html>
