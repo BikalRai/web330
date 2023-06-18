@@ -1,0 +1,58 @@
+a {
+/*	text-decoration: none;*/
+/*transition-property: color, background;
+transition-duration: 2s;
+transition-timing-function: linear;
+transition-delay: 2s;*/
+/*transition: color 2s, background 2s;
+transition: all 2s;
+transition: 2s;
+*/}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: yellow;
+}
+
+a:hover {
+	color: black;
+	background: red;
+	transition: 2s;
+}
+
+a:active {
+	background: yellow;
+}
+
+h1:hover {
+	background: red;
+	cursor: pointer;
+}
+
+h1:active {
+	color: green;
+}
+
+li:first-child {
+	font-size: 1.2rem;
+}
+
+li:last-child {
+	font-size: 1.7rem;
+}
+
+li:nth-child(even) {
+	color: blue;
+}
+
+li:nth-child(odd) {
+	color: darkgrey;
+}
+
+li:nth-child(5) {
+	color: lightgreen;
+	background-color: darksalmon;
+}
