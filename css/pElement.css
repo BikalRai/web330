@@ -1,0 +1,42 @@
+p::first-line {
+	background-color: darksalmon;
+	color: green;
+}
+
+p::first-letter {
+	font-size: 2rem;
+	color: red;
+}
+
+p::selection {
+	background: black;
+	color: cyan;
+}
+
+::selection {
+	background-color: yellow;
+
+}
+
+.one::placeholder {
+	color: green;
+	font-size: 3rem;
+}
+
+
+
+input[type="password"] {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid darkmagenta;
+}
+
+input[type="password"]::placeholder {
+	color: cyan;
+	background: black;
+}
+
+ul::before {
+	content: "something we can write";
+	content: url(../images/lemon.jpg);
+}

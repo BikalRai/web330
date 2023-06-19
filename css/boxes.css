@@ -1,0 +1,35 @@
+div {
+	display: inline-block;
+	background-color: red;
+	margin: 100px;
+	height: 300px;
+	width: 300px;
+}
+
+.box1 {
+	box-shadow: -10px -20px 30px 10px;
+}
+
+.box2 {
+	box-shadow: 100px 30px 20px;
+}
+
+.box3 {
+	box-shadow: 30px 20px 50px red;
+}
+
+.box4 {
+	box-shadow: 20px 20px 30px blue, -20px -20px 30px red, -20px 20px 30px green, 20px -20px 30px yellow;
+}
+
+h1 {
+	text-shadow: 5px 5px 5px;
+}
+
+p {
+	width: 100px;
+	height: 50px;
+	background: red;
+	padding: 20px;
+	box-sizing: border-box;
+}
