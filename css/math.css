@@ -1,0 +1,44 @@
+:root {
+	--primary-bg: rgba(121, 33, 200);
+	--primary-fontSize: 2rem;
+	--white-color: rgba(255,255,255, 0.8);
+	--text-green: rgba(0,255,0,0.5);
+}
+
+div {
+	background-color: red;
+	border-bottom: 2px solid black;
+	height: 100px;
+}
+
+.box1 {
+	width: calc(80%);
+	background-color: var(--primary-bg);
+}
+
+.box2 {
+	background-color: green;
+	width: min(50%, 500px);
+}
+
+.box3 {
+	width: max(50%, 500px);
+	font-size: var(--primary-fontSize);
+	color: var(--white-color);
+}
+
+h1 {
+	color: var(--text-green);
+}
+
+h2 {
+	color: var(--text-green);
+}
+
+h3 {
+	color: var(--text-green);
+}
+
+h4 {
+	color: var(--text-green);
+}
