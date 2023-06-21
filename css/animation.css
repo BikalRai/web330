@@ -1,0 +1,64 @@
+body {
+/*	animation-name: bgColor;*/
+/*	animation-duration: 5s;*/
+/*	animation-delay: 1s;*/
+/*	animation-play-state: paused;*/
+/*	animation-direction: reverse;*/
+/*	animation-direction: alternate-reverse;*/
+/*	animation-iteration-count: infinite;*/
+/*	animation-fill-mode: forwards;*/
+	padding: 0;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: steelblue;
+	animation: move 5s linear alternate-reverse infinite forwards;
+	position: relative;
+	box-shadow: 0 0 10px 10px;
+}
+
+@keyframes move{
+	0% {
+		left: 0;
+	}
+
+	50% {
+		border-radius: 50%;
+	}
+
+	100% {
+		left: calc(100% - 100px);
+		background-color: yellow;
+		transform: rotate(360deg);
+		border-radius: 0;
+		box-shadow: 0 0 0 0;
+	}
+}
+
+@keyframes bgColor {
+	0% {
+		background-color: red;
+	}
+
+	20%{
+		background-color: green;
+	}
+
+	40% {
+		background-color: blue;
+	}
+
+	60% {
+		background-color: pink;
+	}
+
+	80% {
+		background-color: yellow;
+	}
+
+	100% {
+		background-color: black;
+	}
+}
