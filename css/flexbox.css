@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.parent {
+	border: 5px solid;
+	height: 500px;
+	display: flex;
+/*	flex-direction: row;*/
+/*	flex-direction: row-reverse;*/
+/*	flex-direction: column;*/
+/*	flex-direction: column-reverse;*/
+/*	flex-wrap: nowrap;*/
+/*	flex-wrap: wrap;*/
+/*	flex-wrap: wrap-reverse;*/
+/*	flex-flow: row wrap;*/
+/* 	gap: 20px;*/
+
+/*	justify-content: flex-start;*/
+/*	justify-content: flex-end;*/
+	justify-content: center;
+/*	justify-content: space-around;*/
+/*	justify-content: space-between;*/
+/*	justify-content: space-evenly;*/
+/*	align-items: stretch;	*/
+/*	align-items: flex-start;*/
+/*	align-items: flex-end;*/
+/*	align-items: center;*/
+/*	align-items: baseline;*/
+}
+
+.parent  div {
+	background-color: steelblue;
+/*	width: 250px;*/
+
+flex-grow: 1;
+/*flex-shrink: 0;*/
+
+/*flex: 1 1 auto;*/
+
+}
+
+.parent  div:nth-child(even) {
+	background-color: lightblue;
+/*	flex-grow: 5;*/
+/*flex-shrink: 5;*/
+order: 0;
+}
+
+.parent  div:nth-child(1) {
+/*	font-size: 2rem;*/
+/*flex-basis: 200px;*/
+order: 5;
+}
+
+.parent  div:nth-child(2) {
+/*	align-self: flex-end;*/
+/*flex-basis: 500px;*/
+order: 6;
+}
+
+.parent  div:nth-child(3) {
+/*	align-self: flex-start;*/
+order: 1;
+}
+
+.parent  div:nth-child(4) {
+/*	align-self: stretch;*/
+order: 3;
+}
+
+.parent  div:nth-child(5) {
+/*	font-size: 2rem;*/
+order: 2;
+}
+
+.parent  div:nth-child(6) {
+/*	font-size: 2rem;*/
+order: 4;
+}
