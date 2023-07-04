@@ -62,3 +62,11 @@ if(reverse === original_num) {
 // use for loop from 1 - 100
 // if number % 2 === 0, print even
 // else print the number
+
+for (let i = 1; i <= 100; i++) {
+	if( i % 2 === 0) {
+		console.log('even');
+	} else {
+		console.log(i);
+	}
+}
