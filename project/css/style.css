@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	color: #fff;
+}
+
+header {
+	background-color: black;
+	min-height: 100vh;
+	/*background-image: url('../images/hero-img.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: right;*/
+	position: relative;
+}
+
+.hero-container {
+	height: 100vh;
+}
+
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right {
+	background-image: url('../images/hero-img.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.37265;
+}
+
+.hero-header-color {
+	color: rgba(255, 0, 0, 0.7);
+	font-weight: bolder;
+}
+
+.nav-link {
+	color: red;
+}
+
+
+main {
+	height: 2000px;
+}
